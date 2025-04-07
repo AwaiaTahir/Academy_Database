@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>Accountant</class>
+ <widget class="QWidget" name="Accountant">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -129,9 +129,9 @@
    <widget class="QLabel" name="signupLabel">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>89</x>
       <y>50</y>
-      <width>160</width>
+      <width>191</width>
       <height>40</height>
      </rect>
     </property>
@@ -139,7 +139,7 @@
      <string>color: black; font-size: 20px; font-weight: bold;</string>
     </property>
     <property name="text">
-     <string>Admin Signup</string>
+     <string>Accountant Signup</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignCenter</set>

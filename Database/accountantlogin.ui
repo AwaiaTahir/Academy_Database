@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>AccountantLogin</class>
+ <widget class="QWidget" name="AccountantLogin">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Login Signup</string>
+   <string>Login</string>
   </property>
   <widget class="QWidget" name="leftPanel" native="true">
    <property name="geometry">
@@ -28,9 +28,9 @@
    <widget class="QLabel" name="welcomeLabel">
     <property name="geometry">
      <rect>
-      <x>102</x>
+      <x>71</x>
       <y>100</y>
-      <width>200</width>
+      <width>231</width>
       <height>50</height>
      </rect>
     </property>
@@ -45,7 +45,7 @@
      <string notr="true">color: white; font-size: 30px; font-weight: bold; background-color: transparent;</string>
     </property>
     <property name="text">
-     <string>Hello, Friend!</string>
+     <string>Welcome Back!</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -64,53 +64,7 @@
      <string>background-color: transparent; color: white; border: 2px solid white; border-radius: 20px; padding: 5px;</string>
     </property>
     <property name="text">
-     <string>SIGN IN</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>152</y>
-      <width>233</width>
-      <height>39</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Rounded MT</family>
-      <pointsize>10</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: transparent; color: white;</string>
-    </property>
-    <property name="text">
-     <string>Enter your personal Info and</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>164</x>
-      <y>176</y>
-      <width>109</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Rounded MT</family>
-      <pointsize>10</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: transparent; color: white;</string>
-    </property>
-    <property name="text">
-     <string>start with us</string>
+     <string>LOG IN</string>
     </property>
    </widget>
   </widget>
@@ -126,12 +80,12 @@
    <property name="styleSheet">
     <string>background: white;</string>
    </property>
-   <widget class="QLabel" name="signupLabel">
+   <widget class="QLabel" name="loginLabel">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>109</x>
       <y>50</y>
-      <width>160</width>
+      <width>171</width>
       <height>40</height>
      </rect>
     </property>
@@ -139,33 +93,17 @@
      <string>color: black; font-size: 20px; font-weight: bold;</string>
     </property>
     <property name="text">
-     <string>Admin Signup</string>
+     <string>Accountant Login</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="nameInput">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>120</y>
-      <width>200</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string>border: 1px solid gray; border-radius: 10px; padding: 5px;</string>
-    </property>
-    <property name="placeholderText">
-     <string>Name</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="emailInput">
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>180</y>
+      <y>120</y>
       <width>200</width>
       <height>40</height>
      </rect>
@@ -181,7 +119,7 @@
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>240</y>
+      <y>180</y>
       <width>200</width>
       <height>40</height>
      </rect>
@@ -196,11 +134,11 @@
      <string>Password</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="signUpButton">
+   <widget class="QPushButton" name="logInButton">
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>310</y>
+      <y>250</y>
       <width>120</width>
       <height>40</height>
      </rect>
@@ -209,7 +147,7 @@
      <string>background-color: #FF512F; color: white; border-radius: 20px; padding: 5px;</string>
     </property>
     <property name="text">
-     <string>SIGN UP</string>
+     <string>LOG IN</string>
     </property>
    </widget>
   </widget>
